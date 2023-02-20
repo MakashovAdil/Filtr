@@ -3,8 +3,13 @@
 Как ему показалось, он написал верный код, но результат совсем не порадовал.
 Ниже представлен пример работы «чистильщика строк», которому срочно требуется ваша помощь.
 
+
 letters = 'ЫбВЫуЯСдущДШНККАеЩЙФеРФО'
-for letter in letters:
+
+ for letter in letters:
+
 ____if letter.upper() = letters:
+
 ________letters.replace(letter, '')
+
 print(letters)
